@@ -18,6 +18,7 @@ class ChatController extends GetxController {
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;
 
   final FirebaseAuth _auth = FirebaseAuth.instance;
+  final FirebaseAuth _auth1 = FirebaseAuth.instance;
 
 
   Future<void> onSendMessage(String chatRoomId) async {
